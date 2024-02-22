@@ -6,7 +6,7 @@ const Nav = () => {
     <div>
       <nav>
         <a href="#">Nattawat .Dev</a>
-        <ul class="list">
+        <ul className="list">
           <li>
             <a href="#">About</a>
           </li>
