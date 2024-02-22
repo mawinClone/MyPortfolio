@@ -1,0 +1,55 @@
+.AboutPart02{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    height: 100vh;
+    /* background-color: rgb(231, 74, 74); */
+
+    /* display: flex;
+    flex-direction: row;
+    flex:1 1 0% */
+}
+
+.left-about{
+    position: absolute;
+    right: 0;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-about p{
+    font-size: 2rem;
+    color: white;
+}
+
+.right-about{
+
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* right: 0; */
+    /* z-index: 99; */
+}
+
+.content {
+    width: 334px;
+    height: 216px;
+    /* background: #f0f0f0; */
+    border-radius: 3px;
+    overflow-y: auto;
+    padding: 0;
+  }
+  
+  .wrapper {
+    padding: 10px;
+    /* width: 668px; */
+    height: 216px;
+    transform: scale(1);
+    transform-origin: top left;
+  }
+
+

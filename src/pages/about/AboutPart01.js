@@ -11,10 +11,12 @@ const AboutPart01 = () => {
             <p>I'M FULLSTACK DEVELOPER</p>
             <p>WITH EXPERTISE IN WEB AND GAME DEVELOPMENT</p>
         </div>
-        <div className="profile-pic">
+
+        <img src={kululuPic} ></img>
+        {/* <div className="profile-pic">
             <img src={kululuPic} style={{width:"50%"}}></img>
             <h3>kulu kulu kulu</h3>
-        </div>
+        </div> */}
       </div>
     </div>
   );
