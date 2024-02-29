@@ -1,0 +1,38 @@
+.PortfolioPart02{
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    padding: 30px;
+    background-color: #171717;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.PortfolioPart02 p{
+    color: white;
+}
+
+.ex-list{
+    /* background-color: royalblue; */
+    width: 35%;
+}
+
+.ex-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    margin-top: 57px;
+    
+}
+
+.ex-item img{
+    /* background-color: white; */
+}
+
+.ex-item p{
+    color: white;
+}

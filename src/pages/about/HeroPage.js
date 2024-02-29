@@ -16,7 +16,8 @@ import {
   XIcon,
 } from "@heroicons/react/outline";
 import { ChevronDownIcon } from "@heroicons/react/solid";
-import kululuPic from '../../assets/images/kululu-profile.jpg'
+// import kululuPic from '../../assets/images/kululu-profile.jpg'
+import profilePic from '../../assets/images/profilePic.jpg'
 
 const features = [
   {
@@ -103,7 +104,7 @@ export default function Example() {
   return (
     <div style={{width:"100%",height:"100%",display:"flex",flexDirection:"row",alignItems:"center",justifyContent:"center",gap:"10px"}}>
         <p>Nattawat.Dev</p>
-        <img src={kululuPic} style={{width:"20%",borderRadius:"50%"}} ></img>
+        <img src={profilePic} style={{width:"20%",borderRadius:"50%"}} ></img>
       
     </div>
   );

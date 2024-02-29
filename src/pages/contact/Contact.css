@@ -1,0 +1,12 @@
+.Contact{
+    margin-top: 76px; 
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    padding: 30px;
+    background-color: #1f1f1f;
+}
+
+.Contact p{
+    color: white;
+}

@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// import {Link} from 'react-router-dom'
 
 import {
   createBrowserRouter,
@@ -11,6 +12,11 @@ import {
   Link,
 } from "react-router-dom";
 import About from './pages/about/About';
+import Nav from './components/ui/Nav';
+import AboutPart02 from './pages/about/AboutPart02';
+import Portfolio from './pages/portfolio/Portfolio';
+import ScrollToTop from './func/ScrollToTop';
+import Contact from './pages/contact/Contact';
 
 const router = createBrowserRouter([
   {
@@ -21,7 +27,32 @@ const router = createBrowserRouter([
   },
   {
     path: "about",
-    element: <About />,
+    element: (
+      <>
+      <ScrollToTop/>
+      <App />
+      </>
+    ),
+  },
+  {
+    path: "portfolio",
+    element: (
+      <>
+      <ScrollToTop/>
+      <Nav/>
+      <Portfolio/>
+      </>
+    ),
+  },
+  {
+    path: "contact",
+    element: (
+      <>
+      <ScrollToTop/>
+      <Nav/>
+      <Contact/>
+      </>
+    ),
   },
 ]);
 
