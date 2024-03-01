@@ -22,7 +22,7 @@ const AboutPart01 = () => {
                 1000,
                 "Game Developer",
                 1000,
-                "FullStack Program",
+                "FullStack Programmer",
                 1000,
                 
               ]}
