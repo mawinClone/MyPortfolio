@@ -17,7 +17,8 @@
 
 .ex-list{
     /* background-color: royalblue; */
-    width: 35%;
+    width: 40%;
+    
 }
 
 .ex-item{
@@ -35,4 +36,10 @@
 
 .ex-item p{
     color: white;
+}
+
+@media (max-width: 640px) {
+    .ex-list{
+        width: 70%;
+    }
 }

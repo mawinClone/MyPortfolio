@@ -1,4 +1,4 @@
-.AboutPart03{
+.AboutPart03 {
     width: 100%;
     min-height: 100vh;
     background-color: #1f1f1f;
@@ -10,7 +10,7 @@
     gap: 30px;
 }
 
-.skill-container{
+.skill-container {
     display: flex;
     flex-direction: row;
     width: 80%;
@@ -24,7 +24,7 @@
     padding: 30px;
 }
 
-.skill-item{
+.skill-item {
     /* background-color: rgb(70, 70, 70); */
     background-color: rgb(52, 52, 52);
     height: 11rem;
@@ -34,7 +34,8 @@
     border-radius: 10px;
     transition: background-color 0.25s ease-in;
 }
-.skill-item:hover{
+
+.skill-item:hover {
     background-color: #ff9f31;
 }
 
@@ -43,7 +44,7 @@
     width: 100%;
 } */
 
-.item-logo{
+.item-logo {
     /* style={{height:"70%",width:"100%",backgroundColor:"rebeccapurple"}} */
     height: 80%;
     width: 100%;
@@ -53,7 +54,7 @@
     justify-content: center;
 }
 
-.item-name{
+.item-name {
     text-align: center;
     height: 40%;
     width: 100%;
@@ -63,4 +64,16 @@
 /* .item-logo{
     width: 50%;
 } */
+@media (max-width: 640px) {
+    .skill-item {
+        height: 6rem;
+        width: 6rem;
+    }
+}
 
+@media (max-width: 360px) {
+    .skill-item {
+        height: 5rem;
+        width: 5rem;
+    }
+}

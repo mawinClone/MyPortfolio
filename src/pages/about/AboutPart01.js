@@ -29,7 +29,9 @@ const AboutPart01 = () => {
               wrapper="span"
               speed={50}
               repeat={Infinity}
-             style={{color:"white", fontSize:"3vw", fontWeight:"bold", display:"inline-block"}}/>
+            //  style={{color:"white", fontSize:"3vw", fontWeight:"bold", display:"inline-block"}}
+             className="text-anim"/>
+            
             </div>
             
         </div>

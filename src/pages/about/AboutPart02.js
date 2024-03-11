@@ -108,7 +108,7 @@ const AboutPart02 = () => {
         
       </div>
       
-      <div style={{ width: "60%", height: "100%",position:"absolute",left:0,display:"flex",alignItems:"center"}}>
+      <div className="laptop" style={{ width: "60%", height: "100%",left:0,display:"flex",alignItems:"center"}}>
         <Canvas camera={{ position: [5, 0, -20], fov: 55 }}>
         <pointLight position={[10, 10, 10]} intensity={1.5} />
         <Suspense fallback={null}>

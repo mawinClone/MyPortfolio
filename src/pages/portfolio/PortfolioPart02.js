@@ -9,9 +9,10 @@ import innovaPic from '../../assets/images/experience/innovaPic.jpg'
 const PortfolioPart02 = () => {
   return (
     <div className='PortfolioPart02'>
-      <p style={{marginBlock:"50px", fontSize:"24px"}}>EXPERIENCE</p>
-
+      <p style={{marginBottom:"50px", marginTop:"50px", fontSize:"24px"}}>EXPERIENCE</p>
+      {/* <p>EXPERIENCE</p> */}
       <div className='ex-list'>
+      
         <div className='ex-item'>
           <img src={olympicPic} style={{width:"100px",borderRadius:"50%"}}></img>
           <p>โอลิมปิกวิชาการ สอวน. คอมพิวเตอร์ ค่าย 2 in 2558</p>
